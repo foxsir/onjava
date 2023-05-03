@@ -12,8 +12,6 @@ echo "param A or a, to run advanced part"
 echo "--------"
 echo -e "$GREEN";
 
-sleep 1
-
 if [[ $1 = 'A' || $1 = 'a' ]]
 then
   echo -e "${BLUE}run advanced part"
